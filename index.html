@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishikesh's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/96556fa9da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="mobile">
+            <nav>
+                 <!-- <h1> Rishikesh's Portfolio </h1> -->
+                  <img class="logo" src="logo.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header"> Home </a></li>
+                    <li><a href="#about"> About </a></li>
+                    <li><a href="#clubs"> Clubs & Societies </a></li>
+                    <li><a href="#portfolio"> Portfolio </a></li>
+                    <li><a href="#contact"> Contact Me </a></li>
+                    <i class="nav-icon1 fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+            </nav>
+            <i class="nav-icon fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+        <div class="container"></div>
+           
+            <div id="content-home">
+                <!-- <img src="rishikesh.jpeg" class="myimage"> -->
+            <div class="myimage"></div>
+            <div class="header-text">
+                <p>Welcome to my Student Portfolio</p>
+                <h1>Hi, My name is <span1>Rishikesh Raj</span1><br> & I'm a passionate<br><span id="element"></span></h1>
+                <a href="Resume.pdf" download class="btn4">Download Resume</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!---------------- about page ---------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                 
+                     <div class="about-img"></div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>I'm a curious mind, always eager to unravel the complexities of cybersecurity. From firewalls to phishing attacks, I'm fascinated by the ever-evolving landscape of digital threats.
+                        I'm committed to staying updated on the latest threats and vulnerabilities. As an active member of MLSA, NSS, and Toastmasters International, I've honed my communication and teamwork skills. Let's collaborate to build a more secure digital future.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                            <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                            <p class="tab-links" onclick="opentab('education')"> Education </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web App Developer</li>
+                                <li><span>Ethical Hacker</span><br>Professionally I'm a cybersecurity student</li>
+                                <li><span>Communication</span><br>Using communication skills to work well with others, to resolve disputes in a peaceful and fruitful way...</li>
+                                <li><span>Critical Thinking</span><br>It really helps me in problem solving, decision making, conflict resolution & many more...</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Sep 2024 - Present</span><br>ToastMasters International member</li>
+                                <li><span>Sep 2024 - Present</span><br>MLSA- Outreach & Communication member</li>
+                                <li><span>Sep 2024 - Present</span><br>National Service Scheme [NSS] Volunteer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Aug 2024- Present</span><br>Rungta College of Enginering & Technology</li>
+                                <li><span>2022-2024</span><br>M.R Inter College, Biratpur, Saharsa <br> 12th Grade: 1st Division </li>
+                                <li><span>2020-2022</span><br> Veer Kunwar Singh Secondary High School, Gangjala, Saharsa <br> 10th Grade: 1st Division</li>
+                                <li><span>2012-2020</span><br> Jay Pratap Singh Public School, Saharsa</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ Clubs & Societies ---------------- -->
+
+    <div id="clubs">
+        <div class="container">
+            <h1 class="sub-title"> Clubs & Societies </h1>
+        </div>
+        <div class="club-list">
+            <div class="club">
+                
+                 <div class="img img1"></div>
+                <div class="layer layer1">
+                    <h3>Microsoft Learn Students Ambassador</h3>
+                    <p>I'm a member of MLSA Rungta Club in Outreach & Communication.
+                        My work is to connect with peoples, introduce them to us & our works, 
+                        increase the reach of MLSA to a good extent, and many more...</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> view more</a>
+                </div>
+            </div>
+            <div class="club">
+                
+                <div class="img img2"></div>
+                <div class="layer layer2">
+                    <h3>ToastMaster's International</h3>
+                    <p>I'm a proud member of ToastMaster's Club.
+                        ToastMaster's International is a non-profit organisation that helps people develop their Public Speaking,
+                        Communication, and Leadership skills. This organisation have a worldwide network of clubs that meet in person,
+                        online, or in hybrid format...</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> view more</a>
+                </div>
+            </div>
+            <div class="club">
+                
+                <div class="img img3"></div>
+                <div class="layer layer3">
+                    <h3>National Service Scheme</h3>
+                    <p>I am involved in NSS Club because I have always wanted to contribute myself towards the society where I live,
+                        towards my Country, towards the better future. On doing the activities towards the Societies, 
+                        it also develops my personality and character...</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> view more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- --------------------Projects---------------------- -->
+
+      <div id="portfolio">
+      <h1 class="sub-title"> Portfolio </h1>
+      <div class="projects-list">
+        <div>
+            <i class="fa-brands fa-amazon"></i>
+            <h2> Amazon Clone </h2>
+            <p> I meticulously recreated Amazon.com's interface using HTML and CSS, diving deep into the intricacies of web design. This hands-on project was instrumental in solidifying my front-end development skills, as I meticulously replicated every element, from the layout to the smallest details. </p>
+            <a href="#"> Learn More </a>
+        </div>
+        <div>
+            <i class="fa-solid fa-smog"></i>
+            <h2> Real time Weather website </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nam illo nihil architecto, minus ab voluptas esse dolorum facilis in libero, at sapiente repellendus culpa necessitatibus cumque dignissimos optio fuga?</p>
+            <a href="#"> Learn More </a>
+        </div>
+        <div>
+            <i class="fa-solid fa-eye-slash"></i>
+            <h2> ************ </h2>
+            <p>*********************************
+               *******************************</p>
+            <a href="#"> Learn More </a>
+        </div>
+      </div>
+      </div>
+
+
+    <!-- ----------------------Contact Me------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p><a href="mailto:rishikeshraj4409@gmail.com"><i class="fa-solid fa-envelope"></i></a>rishikeshraj4409@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/rishikesh-raj-b68642250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"target="_main"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Rishikesh-001"><i class="fa-brands fa-square-github"target="_main"></i></a>
+                        <a href="https://discord.gg/NN5UFP9N"target="_main"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://x.com/Rishikesh1136?t=Jpdf3y8i2qxoRqLS5yIa7A&s=09"target="_main"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/rishikesh_4709/profilecard/?igsh=NDE2b2xjNDF5em1m"target="_main"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------Footer---------------------- -->
+
+    <footer> 
+       <pr>Copyright &copy; Rishikesh. 
+        Designed & Made with <i class="fa-solid fa-heart"></i> by Rishikesh.</pr>
+    </footer>
+
+
+
+
+    <!-- -----------------JavaScripts----------------- -->
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation on Home Page -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: [ 'Ethical Hacker...', 'E-Sport Player...','Web Developer...'],
+      typeSpeed: 100,
+    });
+  </script>
+
+  <!-- hiding and showing animation on About Page -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw4rCXFCZTQkZD4YkwsxcPaVQW2kifrx8qfqOPTZyVBmHJB8DGZQpMs0_ZQ5Ged_42R3A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-250px";
+    }
+
+    </script>
+
+
+
+
+
+</body>
+</html>
