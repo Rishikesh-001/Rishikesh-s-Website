@@ -661,6 +661,8 @@ footer{
 
     .about-img{
         margin-right: 10px;
+        height:400px;
+        width:310px;
     }
 
     .club-list {
