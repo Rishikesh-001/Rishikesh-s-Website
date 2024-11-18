@@ -630,9 +630,9 @@ footer{
     }
 
     .myimage{
-        height:300px;
-        width:300px;
-        margin-top: 7%;
+        height:270px;
+        width:270px;
+        margin-top: 6%;
         border-radius: 50%;
         border:2px solid grey;
         background-image: url(Rishikesh.jpg);
