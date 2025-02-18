@@ -1,2 +1,4 @@
 # Rishikesh-s-Portfolio
-This is my first Portfolio Website which is completely made using HTML, CSS and JavaScript. I have put good efforts on designing and then Developing the website.
+This is my first project making a Portfolio Website of me. It is completely made using HTML and CSS.
+<br>
+ have put good efforts on designing and then Developing the website.
